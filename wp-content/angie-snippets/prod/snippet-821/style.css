@@ -1,0 +1,205 @@
+/* Inquiry Form Widget - 0e694386 */
+
+.ifw-form-0e694386 {
+    background-color: #0a0f1e;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+.ifw-form-0e694386 *,
+.ifw-form-0e694386 *::before,
+.ifw-form-0e694386 *::after {
+    box-sizing: border-box;
+}
+
+.ifw-form-inner-0e694386 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ifw-section-group-0e694386 {
+    margin-bottom: 20px;
+}
+
+.ifw-section-label-0e694386 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.ifw-options-wrap-0e694386 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.ifw-option-btn-0e694386 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    outline: none;
+    white-space: nowrap;
+}
+
+.ifw-option-btn-0e694386:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
+}
+
+.ifw-fields-row-0e694386 {
+    display: flex;
+    gap: 16px;
+}
+
+.ifw-half-0e694386 {
+    flex: 1;
+}
+
+.ifw-field-group-0e694386 {
+    margin-bottom: 20px;
+}
+
+.ifw-field-0e694386 {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.5;
+    outline: none;
+    transition: border-color 0.25s ease;
+    resize: vertical;
+}
+
+.ifw-field-0e694386:focus {
+    outline: none;
+}
+
+.ifw-file-label-0e694386 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.ifw-dropzone-0e694386 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.25s ease, background-color 0.25s ease;
+    min-height: 80px;
+}
+
+.ifw-dropzone-0e694386.is-dragover-0e694386 {
+    border-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.ifw-file-input-0e694386 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.ifw-dropzone-text-0e694386 {
+    font-size: 13px;
+    pointer-events: none;
+}
+
+.ifw-file-name-0e694386 {
+    font-size: 12px;
+    color: #4ade80;
+    margin-top: 6px;
+    pointer-events: none;
+    display: none;
+}
+
+.ifw-file-name-0e694386.has-file-0e694386 {
+    display: block;
+}
+
+/* reCAPTCHA */
+.ifw-recaptcha-wrap-0e694386 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+
+.ifw-recaptcha-error-0e694386 {
+    color: #f87171;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.ifw-recaptcha-placeholder-0e694386 {
+    opacity: 0.7;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.ifw-submit-wrap-0e694386 {
+    margin-top: 24px;
+}
+
+.ifw-submit-btn-0e694386 {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.ifw-submit-btn-0e694386:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
+}
+
+.ifw-submit-btn-0e694386:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.ifw-success-msg-0e694386 {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.ifw-error-msg-0e694386 {
+    color: #f87171;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.ifw-error-response-0e694386 {
+    color: #f87171;
+    background-color: rgba(248, 113, 113, 0.1);
+    padding: 12px 16px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media (max-width: 767px) {
+    .ifw-fields-row-0e694386 {
+        flex-direction: column;
+        gap: 0;
+    }
+}
