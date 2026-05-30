@@ -1,0 +1,15 @@
+.csc-630c0858-container { position: relative; padding: 20px 0; background: #000; }
+.csc-630c0858-nav { display: flex; justify-content: flex-end; gap: 10px; margin-bottom: 20px; }
+.csc-630c0858-nav button { width: 50px; height: 50px; background: #222; border: none; color: #fff; border-radius: 8px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; transition: background 0.2s; }
+.csc-630c0858-nav button:hover { opacity: 0.85; }
+.csc-630c0858-nav button i { font-size: 16px; }
+.csc-630c0858-nav button svg { width: 16px; height: 16px; fill: currentColor; }
+.csc-630c0858-card { display: flex; background: #fff; border-radius: 12px; overflow: hidden; min-height: 400px; }
+.csc-630c0858-content { flex: 1; padding: 30px; display: flex; flex-direction: column; justify-content: space-between; }
+.csc-630c0858-content p { font-size: 24px; font-weight: 600; line-height: 1.2; margin: 0; color: #000; }
+.csc-630c0858-link { display: inline-flex; align-items: center; justify-content: space-between; font-weight: bold; color: #000; text-decoration: none; margin-top: 20px; }
+.csc-630c0858-arrow { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: #bbf73e; border-radius: 8px; font-size: 20px; margin-left: 15px; color: #000; flex-shrink: 0; }
+.csc-630c0858-arrow i { font-size: 20px; }
+.csc-630c0858-arrow svg { width: 20px; height: 20px; fill: currentColor; }
+.csc-630c0858-image { flex: 1.5; background: #1a1a1a; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.csc-630c0858-image img { width: 100%; height: 100%; object-fit: cover; }
