@@ -1,0 +1,14 @@
+.icon-btn-fa685551 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.icon-btn-fa685551:hover, .icon-btn-fa685551:focus {
+    opacity: 0.9;
+    text-decoration: none;
+}
+.icon-btn-fa685551 svg {
+    transition: all 0.3s ease;
+}
