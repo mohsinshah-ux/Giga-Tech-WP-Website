@@ -1,0 +1,41 @@
+.sh-container-8958a847 {
+    display: flex;
+    width: 100%;
+}
+
+.sh-wrapper-8958a847 {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    gap: 15px; /* Default gap, can be overridden by controls */
+}
+
+.sh-wrapper-8958a847:hover {
+    text-decoration: none;
+}
+
+.sh-icon-8958a847 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+.sh-icon-8958a847 svg {
+    display: block;
+}
+
+.sh-icon-8958a847 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.sh-text-8958a847 {
+    transition: all 0.3s ease;
+    margin: 0;
+    padding: 0;
+}
